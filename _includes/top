@@ -11,6 +11,27 @@
 
   <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic,300,700|PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700|Droid+Sans:400,700|Open+Sans:400,400italic,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
+  <style>
+    {% comment %} put styles here that require a url, because GH Pages doesn't allow plugins {% endcomment %}
+    @font-face {
+      font-family: LibreCaslonText;
+      src: url("{{ site.prod_url }}/fonts/LibreCaslonText-Regular.otf") format("opentype");
+    }
+    @font-face {
+      font-family: LibreCaslonText;
+      font-weight: bold;
+      src: url("{{ site.prod_url }}/fonts/LibreCaslonText-Bold.otf") format("opentype");
+    }
+    @font-face {
+      font-family: LibreCaslonText;
+      font-style: italic;
+      src: url("{{ site.prod_url }}/fonts/LibreCaslonText-Italic.otf") format("opentype");
+    }
+    html {
+      background: url("{{ site.prod_url }}/img/bg.jpg") no-repeat center center fixed;
+    }
+  </style>
+
   <link rel="stylesheet" href="{{ site.prod_url }}/css/normalize.css">
   <link rel="stylesheet" href="{{ site.prod_url }}/css/normalize-opentype.css">
   <link rel="stylesheet" href="{{ site.prod_url }}/css/skeleton.css">
