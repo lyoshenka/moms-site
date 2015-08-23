@@ -2,9 +2,9 @@
 {% comment %}
         <footer class="row footer-row">
           <div class="column offset-by-one">
-            <a href="/">Home</a> &bull;
+            <a href="{{ site.prod_url }}/">Home</a> &bull;
             <a href="javascript:;">Services</a> &bull;
-            <a href="/about">About</a>
+            <a href="{{ site.prod_url }}/about">About</a>
           </div>
         </footer>
 {% endcomment %}
@@ -12,7 +12,7 @@
 
     </div>{% comment %} content div {% endcomment %}
 
-    <script src="/script.js"></script>
+    <script src="{{ site.prod_url }}/script.js"></script>
 
 {% comment %}
     <script>if(document.URL.indexOf('localhost') === -1){(function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-31225770-1","auto");ga("send","pageview");}</script>

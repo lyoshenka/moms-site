@@ -1,19 +1,23 @@
+---
+layout: null
+---
+
 html {  box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
 @font-face {
   font-family: LibreCaslonText;
-  src: url("/fonts/LibreCaslonText-Regular.otf") format("opentype");
+  src: url("{{ site.prod_url }}/fonts/LibreCaslonText-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: LibreCaslonText;
   font-weight: bold;
-  src: url("/fonts/LibreCaslonText-Bold.otf") format("opentype");
+  src: url("{{ site.prod_url }}/fonts/LibreCaslonText-Bold.otf") format("opentype");
 }
 @font-face {
   font-family: LibreCaslonText;
   font-style: italic;
-  src: url("/fonts/LibreCaslonText-Italic.otf") format("opentype");
+  src: url("{{ site.prod_url }}/fonts/LibreCaslonText-Italic.otf") format("opentype");
 }
 
 // Fix for jumping scrollbar: https://aykevl.nl/2014/09/fix-jumping-scrollbar
@@ -31,8 +35,8 @@ html {  box-sizing: border-box; }
 @link-color: #55868a;
 @accent-color: #bd9e72;
 
-html { 
-  background: url("/img/bg.jpg") no-repeat center center fixed; 
+html {
+  background: url("{{ site.prod_url }}/img/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -82,8 +86,8 @@ a {
 }
 
 nav {
-  font-size: 1.8rem; 
-  line-height: 1.5;  
+  font-size: 1.8rem;
+  line-height: 1.5;
   letter-spacing: -.05rem;
   a {
     margin-right: 20px;
