@@ -2,6 +2,8 @@ markdown: rdiscount
 rdiscount:
   extensions: ['smart']
 
+exclude: ["README.md", "config.ru", "Gemfile*", "Rakefile", "*.rake", "wercker.yml", "bin", "vendor", "CNAME"]
+
 gems:
   - jekyll-sitemap
 
