@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Lana Grintsvayg, LCSW</title>
+  <meta name="description" content="Lana Grintsvayg, LCSW" />
+
+  <!-- <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic,300,700|PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700|Droid+Sans:400,700|Open+Sans:400,400italic,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/normalize-opentype.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+  <div id="content">
+
+    <div class="container main-container">
+
+      <div class="row header-row">
+        <div class="column">
+          <h1>Lana Grintsvayg, LCSW</h1>
+          <h4>Psychotherapy for All Ages</h4>
+        </div>
+      </div>
+
+      <div class="row nav-row">
+        <div class="column offset-by-one">
+          <nav>
+            <a href="/">Home</a>
+            <a href="javascript:;">Services</a>
+            <a href="/about">About</a>
+          </nav>
+        </div>
+      </div>
+
