@@ -2,8 +2,6 @@ markdown: rdiscount
 rdiscount:
   extensions: ['smart']
 
-prod_url: http://lyoshenka.github.io/moms-site
-
 gems:
   - jekyll-sitemap
 
