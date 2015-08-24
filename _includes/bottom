@@ -10,7 +10,9 @@
 {% endcomment %}
       </div>
 
-    </div>{% comment %} content div {% endcomment %}
+      <div class="right-gradient"></div>
+
+      </div>{% comment %} end #content {% endcomment %}
 
     <script src="/script.js"></script>
 
