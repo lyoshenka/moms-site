@@ -20,27 +20,22 @@
 </head>
 <body>
 
-  <div id="content">
-
-    <div class="left-gradient"></div>
-
     <div class="container main-container">
 
       <div class="row header-row">
-        <div class="column">
-          <h1>Lana Grintsvayg, LCSW</h1>
-          <span class="tagline">Psychotherapy for All Ages</span>
+        <div class="column center">
+          <h1>Psychotherapy for All&nbsp;Ages</h1>
+          <h5 class="subheader">Lana Grintsvayg, LCSW</h5>
         </div>
       </div>
 
       <div class="row nav-row">
-        <div class="column offset-by-one ten">
+        <div class="column center">
           <nav>
             <a href="/">Home</a>
-            <a href="javascript:;">Services</a>
+            <a href="/services">Services</a>
             <a href="/about">About</a>
-            <a class="button button-primary u-pull-right" href="/contact">Contact Me</a>
+            <a class="box" href="/contact">Contact&nbsp;Me</a>
           </nav>
         </div>
       </div>
-

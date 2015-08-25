@@ -3,16 +3,12 @@
         <footer class="row footer-row">
           <div class="column offset-by-one">
             <a href="/">Home</a> &bull;
-            <a href="javascript:;">Services</a> &bull;
+            <a href="/services">Services</a> &bull;
             <a href="/about">About</a>
           </div>
         </footer>
 {% endcomment %}
       </div>
-
-      <div class="right-gradient"></div>
-
-      </div>{% comment %} end #content {% endcomment %}
 
     <script src="/script.js"></script>
 
